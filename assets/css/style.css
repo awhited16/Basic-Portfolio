@@ -5,7 +5,7 @@ body {
   font-size: 18px;
   line-height: 150%;
   color: #333;
-  background-image: url("/assets/images/floor-tile.png")
+  background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/floor-tile.png")
 }
 
 a {
@@ -15,8 +15,8 @@ a {
   color: #777777;
 }
 
-h1, h2 {
-  font-family: 'Georgia', Times, Times New Roman, serif;
+h1, h2, h3 {
+  font-family: Georgia, Times, "Times New Roman", serif;
 }
 
 h1 {
@@ -34,9 +34,13 @@ h1 {
 }
 
 h2 {
-  font-size: 24p;
+  font-size: 30px;
   color: #4aaaa5;
-  padding: 20px;
+  padding: 20px 0px 10px 20px;
+}
+
+h3 {
+  line-height: 50px;
 }
 
 p {
@@ -45,7 +49,7 @@ p {
   font-size: 16px;
 }
 
-img {
+#headshot {
   padding: 20px;
   float: left;
   width: 150px;
@@ -60,7 +64,7 @@ nav {
   border-bottom: 2px solid #cccccc;
 }
 
-.Aboutme {
+.content {
   width: 960px;
   background-color: #ffffff;
   border: 2px solid #dddddd;
@@ -79,15 +83,55 @@ hr {
   
 }
 
+input, textarea {
+  width: 900px;
+  margin-bottom: 12px;
+}
+
+button {
+  background-color: #4aaaa5;
+  color: #ffffff;
+  border: none;
+  text-align: center;
+  height: 30px;
+  width: 75px;
+  text-align: center;
+  margin-top: 10px;
+}
+
 footer {
   background-color: #666666;
   border-top: 5px solid #4aaaa5;
-  height: 50px;
+  height: 20px;
   margin-top: 20px;
   text-align: center;
   font-size: 12px;
-
+  padding: 20px;
 }
 
+#copyright {
+  padding-top: 5px;
+}
 
+.placeholder {
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+  z-index: 3;
+  float: left;
+}
 
+.titles {
+  background-color: #4aaaa5;
+  width: 300px;
+  margin: 10px;
+  color: #ffffff;
+  height: 50px;
+  float: left;
+  z-index: 4;
+  text-align: center;
+}
+
+.clearfix {
+  overflow: auto;
+}
