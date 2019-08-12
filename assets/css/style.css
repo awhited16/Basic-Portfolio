@@ -5,7 +5,7 @@ body {
   font-size: 18px;
   line-height: 150%;
   color: #333;
-  background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/floor-tile.png")
+  background-image: url("../images/floor-tile.png")
 }
 
 a {
@@ -36,7 +36,7 @@ h1 {
 h2 {
   font-size: 30px;
   color: #4aaaa5;
-  padding: 20px 0px 10px 20px;
+  padding: 25px 0px 10px 25px;
 }
 
 h3 {
@@ -76,7 +76,7 @@ nav {
 
 hr {
   display: block;
-  width: 920px;
+  width: 910px;
   height: 3px;
   background-color: #dddddd;
   border: none;
@@ -114,17 +114,19 @@ footer {
 }
 
 .placeholder {
-  height: 300px;
-  width: 300px;
-  margin: 10px;
+  position: relative;
+  height: 175px;
+  width: 250px;
+  margin: 25px;
   z-index: 3;
   float: left;
 }
 
 .titles {
+  position: absolute;
   background-color: #4aaaa5;
-  width: 300px;
-  margin: 10px;
+  width: 250px;
+  margin: 25px;
   color: #ffffff;
   height: 50px;
   float: left;
@@ -134,4 +136,8 @@ footer {
 
 .clearfix {
   overflow: auto;
+}
+
+.portfolio {
+  height:620px;
 }
