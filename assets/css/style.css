@@ -121,20 +121,20 @@ footer {
   padding-top: 5px;
 }
 
-.placeholder {
+.project {
   position: relative;
   height: 175px;
   width: 250px;
-  margin: 25px;
+  margin: 20px 30px 20px 30px;
   z-index: 3;
   float: left;
 }
 
 .titles {
-  position: absolute;
+  position: relative;
+  bottom: 75px;
   background-color: #4aaaa5;
   width: 250px;
-  margin: 25px;
   color: #ffffff;
   height: 50px;
   float: left;
@@ -147,5 +147,5 @@ footer {
 }
 
 .portfolio {
-  height:620px;
+  height: 530px;
 }
